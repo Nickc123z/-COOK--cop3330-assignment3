@@ -1,0 +1,24 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+YES <|-- main
+no <|-- main
+
+
+abstract class main{
+while(string != null)
+}
+
+class YES{
+print(print count);
+}
+class no{
+print(word is not in file);
+}
+
+
+
+
+@endum
+

@@ -1,0 +1,30 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+no <|-- main
+yes <|-- main
+yes1 <|-- yes
+no1 <|-- yes
+
+class yes {
+print(site,name,path);
+if( javascript  = y)
+
+}
+class no{
+print(website not created);
+end
+}
+class yes1{
+printf(created)
+}
+class no1{
+printf( not created )
+}
+
+
+abstract class main{
+if(websitecreated){
+}
+@enduml

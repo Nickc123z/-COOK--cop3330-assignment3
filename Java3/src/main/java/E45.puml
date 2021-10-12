@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+writable <|-- main
+rfile <|-- main
+getcount <|-- main
+readily <|-- main
+
+
+class rfile {
+list = arraylist;
+scan = newscan;
+
+}
+class writable{
+while true(){
+count++}
+break;
+}
+class getcount{
+returns count;
+}
+class readily{
+while loop;
+add.namelist();
+}
+
+
+abstract class main{
+scan file;
+readfile1.readily();
+list = readfile1;
+write1 = writefile;
+writefile1.writable();
+}
+@enduml

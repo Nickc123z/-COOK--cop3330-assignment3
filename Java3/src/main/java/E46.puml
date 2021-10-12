@@ -1,0 +1,36 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+print1 <|-- main
+print <|-- main
+rfile <|-- main
+readily <|-- main
+
+
+class print1 {
+loops();
+k = values;
+
+}
+class print{
+map = ma[;
+}
+
+class readable{
+while(can scan){
+key[i] = array1;
+}
+
+class rfile{
+new file();
+scan = newfile;
+new = new hashmap;
+}
+
+
+abstract class main{
+readfile();
+readfile1.readable();
+}
+@enduml

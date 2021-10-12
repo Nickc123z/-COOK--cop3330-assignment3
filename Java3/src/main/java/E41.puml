@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract class outputNames
+abstract AbstractCollection
+
+outputNames <|-- main
+AbstractCollection <|-- outputNames
+main- AbstractCollection
+class main {
+scan file;
+Array Names;
+readNames(scan, names);
+scan.close;
+}
+
+abstract class outputNames{
+fileWriter;
+for loop;
+output.close;
+}
+abstract AbstractCollection{
+addnames();
+}
+@enduml
+
+
+
+
